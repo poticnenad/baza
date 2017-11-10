@@ -1,3 +1,0 @@
-CREATE SCHEMA [ut]
-	AUTHORIZATION [dbo]
-GO
