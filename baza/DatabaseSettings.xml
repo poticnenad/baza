@@ -3,5 +3,5 @@
   <ServerVersion>Sql2017</ServerVersion>
   <ServerName>DEVOPS-CICD-TEA\SQLEXPRESS</ServerName>
   <DatabaseName>testDB</DatabaseName>
-  <DatabaseInformation Version="5" />
+  <DatabaseInformation Version="6" />
 </DatabaseSettings>
