@@ -27,7 +27,7 @@ $options = New-ApexSqlOptions -PipelineName "CI_Pipeline" -NotificationSettings 
 $dsSC = New-ApexSQLSource -ConnectionName "git_source" -Source_Type "git" -Repository "https://github.com/poticnenad/baza" -Project "baza" -Branch "master" -UserName "poticnenad@gmail.com" -Password "nenadP1984"
 
 #Define target: new database (testing)
-$dsQA = New-ApexSqlDatabaseConnection -ConnectionName "qaDB_dest" -Server "." -Database "ps_tempDB" -UserName "sa" -Password "DevopsApex123+"
+$dsQA = New-ApexSqlDatabaseConnection -ConnectionName "qaDB_dest" -Server "DEVOPS-CICD-TEA\SQLEXPRESS" -Database "ps_tempDB" -UserName "sa" -Password "DevopsApex123+"
 
 #endregion
 
